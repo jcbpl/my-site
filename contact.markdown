@@ -5,3 +5,5 @@ layout: page
 ---
 
 Call me maybe?
+
+![hello.gif](/uploads/hello.gif)
