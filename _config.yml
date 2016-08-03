@@ -12,14 +12,14 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@domain.com
-url: http://yourdomain.com
-twitter_username: awesomeinc
-permalink: pretty
-copyright: "© 2016 Awesome Inc."
 defaults:
 - scope:
     path: ''
     type: posts
   values:
     permalink: "/blog/:title/"
+email: your-email@domain.com
+url: http://yourdomain.com
+twitter_username: awesomeinc
+permalink: pretty
+copyright: "© 2016 Awesome Inc."
