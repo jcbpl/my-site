@@ -11,6 +11,7 @@ excerpt: He started writing a sample post and you won't believe what happened ne
 starts at: 2016-08-10 11:30:00 Z
 is featured: true
 author: Jesse
+header color: "#10d983"
 layout: post
 ---
 
