@@ -5,7 +5,7 @@ categories:
 - jekyll
 tags:
 - announcements
-notes: This is definitely a sample post.
+notes: 'This is definitely a sample post. '
 image: "/uploads/ggb.jpg"
 excerpt: He started writing a sample post and you won't believe what happened next.
 starts at: 2016-08-10 11:30:00 Z
