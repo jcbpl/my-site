@@ -13,5 +13,6 @@ collections:
     output: true
 email: your-email@domain.com
 url: http://yourdomain.com
-twitter_username: 
+twitter_username: awesomeinc
 permalink: date
+copyright: "© 2016 Awesome Inc."
