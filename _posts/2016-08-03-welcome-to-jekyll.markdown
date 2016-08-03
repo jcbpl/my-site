@@ -5,6 +5,7 @@ categories:
 - jekyll
 tags:
 - announcements
+notes: This is a sample post.
 layout: post
 ---
 
