@@ -3,7 +3,7 @@ title: My awesome title
 timezone: UTC
 collections:
   posts:
-    title: Posts
+    title: Stories
     output: true
   uploads:
     title: Uploads
