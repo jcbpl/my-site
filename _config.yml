@@ -17,3 +17,15 @@ url: http://yourdomain.com
 twitter_username: awesomeinc
 permalink: pretty
 copyright: "© 2016 Awesome Inc."
+
+defaults:
+  - scope:
+      type: "posts"
+    values:
+      notes: 
+      image: 
+      excerpt: 
+      starts at: 
+      is featured: false
+      author: 
+      layout: post
