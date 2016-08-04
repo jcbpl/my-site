@@ -27,5 +27,5 @@ defaults:
 email: your-email@domain.com
 url: http://yourdomain.com
 twitter_username: awesomeinc
-permalink: pretty
+permalink: date
 copyright: "© 2016 Awesome Inc."
