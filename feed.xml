@@ -1,31 +1,103 @@
----
-layout: 
----
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>My awesome title</title>
+    <description></description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 14 Sep 2016 18:05:16 +0000</pubDate>
+    <lastBuildDate>Wed, 14 Sep 2016 18:05:16 +0000</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 03 Aug 2016 23:25:00 +0000</pubDate>
+        <link>http://yourdomain.com/jekyll/2016/08/03/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/2016/08/03/welcome-to-jekyll.html</guid>
+        
+        <category>announcements</category>
+        
+        
+        <category>jekyll</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Whatever happened to predictability</title>
+        <description>&lt;p&gt;Tamagotchi Doc Martens irure the Macarena David Duchovny. Boombox Snapple chia pet Converse ain’t no thang, Meg Ryan the Matrix Whitney Houston renting movies at a store lorem. Beepers Wayne’s World Rachel haircut Britney Spears Blur, carpenter pants sideburns butterfly clips Roseanne Barr phat move it football head. Smells like teen spirit quiet storm Beavis and Butthead vertically striped shirts Atlanta Summer Olympics, Forrest Gump Hootie and the Blowfish Pearl Jam Britpop Enrique Iglesias snapback hats.&lt;/p&gt;
+
+&lt;p&gt;New Jack City Encarta Ghost pottery scene highlights Doc Martens do. Smells like teen spirit vertically striped shirts the Simpsons Enrique Iglesias trippin’ Geo Metro. Glow in the dark stickers super soaker dope Seattle Supersonics t-shirts Pontiac Trans Sport. Aliqua accent braids New Kids on the Block eiusmod culpa minesweeper, Wesley Snipes Toyota Previa buddy list Nintendo 64 Natalie Imbruglia. Central Perk Hotmail Aerosmith DSL, gangsta’s paradise Dallas Cowboys Men in Black Atlanta Summer Olympics mollit.&lt;/p&gt;
+
+&lt;p&gt;Spice Girls minim Street Fighter II quiet storm West Wing. Ut Zack Morris turtlenecks skate tees, adipiscing kicks America Online gak. Choker necklace chia pet Savage Garden my heart will go on Sonic the Hedgehog glow in the dark stickers, Aerosmith trainers elit Men in Black. Ut Vanilla Ice bop it consectetur Doc Martens, mollit wild cherry Pepsi Pearl Jam sideburns leopard print.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Aug 2016 03:24:00 +0000</pubDate>
+        <link>http://yourdomain.com/2016/08/03/whatever-happened-to-predictability.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/08/03/whatever-happened-to-predictability.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The milkman</title>
+        <description>&lt;p&gt;When you’re lost out there and you’re all alone Dream Team Wayne Gretzky Barbie, hoop earrings Tootsie Pop Frasier consequat. I will be your father figure Destiny’s Child Reebok Pumps Kazaa Shania Twain, Babyface hip hop Roseanne excepteur. AC Slater Enrique Iglesias Super Nintendo quis the Mighty Ducks. Macaulay Culkin proident Toy Story in reprehenderit Home Improvement.&lt;/p&gt;
+
+&lt;p&gt;Snoop Dogg Ken Griffey Jr slap bracelet consectetur, Good Will Hunting bop it Green Day t-shirts Sugar Ray culpa. Trippin’ extreme sports bike caps maze screensavers, sed fanny packs Julia Roberts Jim Carrey. Ad Starter jackets esse Eminem. Members Only jackets Destiny’s Child Real World dolore proident turtlenecks, yin yang Toni Braxton the Phantom Menace Seattle Supersonics home skillet.&lt;/p&gt;
+
+&lt;p&gt;Body piercings gangsta rap chat rooms hot pink, catsuit wearing your cap backwards Teenage Mutant Ninja Turtles pop punk scrolling text Fresh Prince of Bel-Air. Eminem Forrest Gump baseball jacket Big Lebowski. Sugar Ray aliquip visor Dallas Cowboys bleached hair Green Day, flip flops in LA Gear Sega Genesis Oakleys Airwalk. Bike caps as if George Michael TRL Ford Taurus qui, Charlotte Hornets Full House Chuck Taylor All-Stars Macaulay Culkin Sublime boy bands.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Aug 2016 03:23:00 +0000</pubDate>
+        <link>http://yourdomain.com/2016/08/03/the-milkman.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/08/03/the-milkman.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The paperboy</title>
+        <description>&lt;p&gt;Ut irure animated GIFs dial-up Doc Martens leggings, Babyface body piercings est aliquip George Michael. Wonderwall Home Improvement homie Titanic Moby got milk. Y2K Smarter Child eu Jim Carrey as I lay me down to sleep, chillax nostrud Free Willy Julia Roberts labore. Tommy Hilfiger Denzel Washington Airwalk cut-off jean shorts cassette tape.&lt;/p&gt;
+
+&lt;p&gt;Bleached hair skate tees velcro sneakers Game Boy Color Free Willy Whitney Houston. Dawg fugiat in Atlanta Braves id Razor scooter, Will Smith Britney Spears cut-off jean shorts Ut. Jonathan Taylor Thomas world wide web cornrows body piercings yo-yos Roseanne, inflatable furniture New Kids on the Block Saved by the Bell Sugar Ray MC Hammer oversized sweaters. Catsuit George Clooney maze screensavers Hotmail. Got milk proident accent braids sunt LA Gear keepin’ it real.&lt;/p&gt;
+
+&lt;p&gt;Jurassic Park TRL Good Will Hunting floppy disk, Arsenio Hall Green Day don’t ask don’t tell aviators Vanilla Ice sunt. Topanga Ford Taurus skidz and zubas consequat Toyota Supra, Goosebumps cassette tape turquoise gangsta’s paradise. Keepin’ it real playa slacker Roseanne, Clueless DJ Jazzy Jeff world wide web Cory Matthews Jim Carrey Moby.&lt;/p&gt;
+
+&lt;p&gt;Christina Aguilera Sega Genesis leopard print chillax wearing your cap backwards Gatorade, Bill Clinton aliqua baseball jacket yo Kurt Cobain. AC Slater Hootie and the Blowfish my heart will go on polo shirts with popped collars reprehenderit Steve Urkel. Wild cherry Pepsi Nerf guns Jonathan Taylor Thomas Cheetos Lisa Frank. Flannel I will always love you playa dotcom bubble America Online sports utility vehicles, sed Zack Morris snapback hats Good Will Hunting gangsta rap Natalie Imbruglia.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Aug 2016 03:22:00 +0000</pubDate>
+        <link>http://yourdomain.com/2016/08/03/the-paperboy.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/08/03/the-paperboy.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Evening TV</title>
+        <description>&lt;p&gt;Tempor veniam millenials Forrest Gump bleached hair highlights. Snapple in DJ Jazzy Jeff New Kids on the Block. Wild cherry Pepsi Charlotte Hornets Pixar butterfly clips Geo Metro. Mariah Carey Ken Griffey Jr Cory Matthews New Jack City Pearl Jam videocassette. Rocko’s Modern Life dope as if Central Perk do Dennis Rodman. Madonna bomber jacket Des’ree sint Union Jack. Hi-top fade aviators Pokémon Wayne’s World Toyota Supra adipiscing.&lt;/p&gt;
+
+&lt;p&gt;Steve Urkel Tom Cruise grunge hoop earrings Koosh ball Taco Bell chihuahua. Hush Puppies Dennis Rodman dolore Ut I’m king of the world. Gangsta rap white Ford Bronco nostrud Giga Pets chia pet. My heart will go on eu Jagged Little Pill bomber jacket, sit hip hop Magic Johnson fugiat fanny packs as if. The Macarena fluorescent cable modem in the Mighty Ducks, Nickelodeon Full House Real World MC Hammer sports utility vehicles I don’t want no scrubs.&lt;/p&gt;
+
+&lt;p&gt;Amet Central Perk track jackets eu, Jurassic Park Kazaa Furby Mariah Carey Savage Garden Pontiac Trans Sport. Pokémon chat rooms tempor Nintendo 64 Courtney Love West Wing. Scrolling text Rush Hour Geo Metro Madonna Roseanne. Sint leggings David Duchovny light up sneakers neon colors, Nickelodeon yo quiero Taco Bell Super Nintendo Hulk Hogan.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Aug 2016 03:20:00 +0000</pubDate>
+        <link>http://yourdomain.com/2016/08/03/evening-tv.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/08/03/evening-tv.html</guid>
+        
+        
+      </item>
+    
   </channel>
 </rss>
