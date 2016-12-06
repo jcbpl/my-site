@@ -29,3 +29,5 @@ url: http://yourdomain.com
 twitter_username: awesomeinc
 permalink: date
 copyright: "© 2016 Awesome Inc."
+gems:
+- jekyll-avatar
